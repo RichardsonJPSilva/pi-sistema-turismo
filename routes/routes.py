@@ -1,5 +1,5 @@
 # model.py
-from config.db import get_db_connection
+from config.database import get_db_connection
 
 class TodosEventos:
     # Lista todos os eventos cadastrados

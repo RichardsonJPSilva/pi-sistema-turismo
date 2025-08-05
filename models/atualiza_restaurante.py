@@ -1,4 +1,4 @@
-from config.db import get_db_connection
+from config.database import get_db_connection
 
 def atualizar_restaurante(id_restaurante, nome, descricao, tipo_cozinha, horario_funcionamento, faixa_preco, capacidade, avaliacao, imagem, reservas, delivery, estacionamento, fone_1, fone_2, rua, numero, bairro, cidade, estado):
     conn = get_db_connection()
